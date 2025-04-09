@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url(./img/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover; */
+
+    /* atalho de tudo feito a cima em uma unica linha */
+    background: url(./img/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body * {
+    color: #ffffff;
+}
+
+#container {
+    width: 360px;
+    margin: auto;
+    padding-top: 56px;
+}
+
+#profile {
+    text-align: center;
+    padding: 24px;
+}
+
+#profile img {
+    width: 112px;
+    border: 2px solid rgb(221, 185, 242);
+    border-radius: 50%;
+    background-color: rgb(219, 245, 245);
+}
+
+#profile {
+    font-weight: 500px;
+    line-height: 24px;
+    padding-top: 8px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+ul li a {
+    height: 52px;
+    align-items: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    font-weight: bold;
+}
